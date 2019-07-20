@@ -1,6 +1,5 @@
 var loaderUtils = require("loader-utils");
-// lqip: https://github.com/zouhir/lqip
-var lqip = require("lqip");
+var lqip = require("./lqip");
 
 module.exports = function(contentBuffer) {
   this.cacheable && this.cacheable();
